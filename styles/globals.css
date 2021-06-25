@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        @apply text-gray-900 bg-gray-50 /*dark:bg-gray-900 dark:text-gray-100;*/
+    }
+
+    #box {
+        @apply w-10 h-10 p-2 border-2 border-solid hover:border-yellow-300;
+    }
+
+    #row {
+        @apply grid grid-cols-3
+    }
+}
